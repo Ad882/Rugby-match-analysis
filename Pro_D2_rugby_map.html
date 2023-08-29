@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3e0fa7c206b72c02ea0b2c60829787d5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3e0fa7c206b72c02ea0b2c60829787d5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3e0fa7c206b72c02ea0b2c60829787d5 = L.map(
+                "map_3e0fa7c206b72c02ea0b2c60829787d5",
+                {
+                    center: [46.832695, 2.658691],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0aace23d3841d7e31b69c9e5df64fa8f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3e0fa7c206b72c02ea0b2c60829787d5);
+        
+    
+            var marker_58f80ae8b7c70e398591aeed730db1e6 = L.marker(
+                [43.334721, 3.266011],
+                {}
+            ).addTo(map_3e0fa7c206b72c02ea0b2c60829787d5);
+        
+    
+            var icon_41741e9f39e3fdb2e9dcf4a5ca3c039a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_58f80ae8b7c70e398591aeed730db1e6.setIcon(icon_41741e9f39e3fdb2e9dcf4a5ca3c039a);
+        
+    
+        var popup_dba68f2a2f2ffc9c82da6ac9447f7fc4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3398e3230972fe5c7bfc53e088125e9 = $(`<div id="html_a3398e3230972fe5c7bfc53e088125e9" style="width: 100.0%; height: 100.0%;">Association sportive de Béziers Hérault, Stade Raoul-Barrière</div>`)[0];
+                popup_dba68f2a2f2ffc9c82da6ac9447f7fc4.setContent(html_a3398e3230972fe5c7bfc53e088125e9);
+            
+        
+
+        marker_58f80ae8b7c70e398591aeed730db1e6.bindPopup(popup_dba68f2a2f2ffc9c82da6ac9447f7fc4)
+        ;
+
+        
+    
+    
+            var marker_49ca46a9ce812d1bd3ae61bd09389959 = L.marker(
+                [43.481767, -1.537756],
+                {}
+            ).addTo(map_3e0fa7c206b72c02ea0b2c60829787d5);
+        
+    
+            var icon_ad7a738a4704095a81a6e4c085a9806d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_49ca46a9ce812d1bd3ae61bd09389959.setIcon(icon_ad7a738a4704095a81a6e4c085a9806d);
+        
+    
+        var popup_627d86b8c87e5a19b577804426908eb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bffb0a0c87839acb19c1d1e8759fbca9 = $(`<div id="html_bffb0a0c87839acb19c1d1e8759fbca9" style="width: 100.0%; height: 100.0%;">Biarritz olympique Pays basque, Parc des sports d'Aguiléra</div>`)[0];
+                popup_627d86b8c87e5a19b577804426908eb3.setContent(html_bffb0a0c87839acb19c1d1e8759fbca9);
+            
+        
+
+        marker_49ca46a9ce812d1bd3ae61bd09389959.bindPopup(popup_627d86b8c87e5a19b577804426908eb3)
+        ;
+
+        
+    
+    
+            var marker_a5444b629f632652e40500f5ddc44158 = L.marker(
+                [45.161657, 1.548461],
+                {}
+            ).addTo(map_3e0fa7c206b72c02ea0b2c60829787d5);
+        
+    
+            var icon_814514e26f1efa9fefd65e89a886102c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_a5444b629f632652e40500f5ddc44158.setIcon(icon_814514e26f1efa9fefd65e89a886102c);
+        
+    
+        var popup_b8118846f131b9bcbfbc240925632245 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41151bc23c37e9202bfa75c5b48e66ff = $(`<div id="html_41151bc23c37e9202bfa75c5b48e66ff" style="width: 100.0%; height: 100.0%;">Club athlétique Brive Corrèze Limousin, Stade Amédée-Domenech</div>`)[0];
+                popup_b8118846f131b9bcbfbc240925632245.setContent(html_41151bc23c37e9202bfa75c5b48e66ff);
+            
+        
+
+        marker_a5444b629f632652e40500f5ddc44158.bindPopup(popup_b8118846f131b9bcbfbc240925632245)
+        ;
+
+        
+    
+    
+            var marker_66687705810e397d98ad7e9f58b2b74d = L.marker(
+                [43.619774, 1.32724],
+                {}
+            ).addTo(map_3e0fa7c206b72c02ea0b2c60829787d5);
+        
+    
+            var icon_a526e4d3ca31caf3df962711e9f1aab6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_66687705810e397d98ad7e9f58b2b74d.setIcon(icon_a526e4d3ca31caf3df962711e9f1aab6);
+        
+    
+        var popup_021803b10a66633f65b2b71982bcac96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d75a8c452f7ebaada743362d586c3d4 = $(`<div id="html_0d75a8c452f7ebaada743362d586c3d4" style="width: 100.0%; height: 100.0%;">Colomiers rugby, Stade Michel-Bendichou</div>`)[0];
+                popup_021803b10a66633f65b2b71982bcac96.setContent(html_0d75a8c452f7ebaada743362d586c3d4);
+            
+        
+
+        marker_66687705810e397d98ad7e9f58b2b74d.bindPopup(popup_021803b10a66633f65b2b71982bcac96)
+        ;
+
+        
+    
+    
+            var marker_7f42d2f42a3694db2b51ba4b8289d495 = L.marker(
+                [45.187405, 5.740134],
+                {}
+            ).addTo(map_3e0fa7c206b72c02ea0b2c60829787d5);
+        
+    
+            var icon_9ccb427eb0170bf29017f24052cbf02d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_7f42d2f42a3694db2b51ba4b8289d495.setIcon(icon_9ccb427eb0170bf29017f24052cbf02d);
+        
+    
+        var popup_29b915e8aca56157a1932b9b6db3b650 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d000e47266d91a579ad38110b5c3309 = $(`<div id="html_9d000e47266d91a579ad38110b5c3309" style="width: 100.0%; height: 100.0%;">Football Club de Grenoble rugby, Stade des Alpes</div>`)[0];
+                popup_29b915e8aca56157a1932b9b6db3b650.setContent(html_9d000e47266d91a579ad38110b5c3309);
+            
+        
+
+        marker_7f42d2f42a3694db2b51ba4b8289d495.bindPopup(popup_29b915e8aca56157a1932b9b6db3b650)
+        ;
+
+        
+    
+    
+            var marker_9dcce04d8fdd5a3ccad9a59c15ac7ca1 = L.marker(
+                [43.527711, 5.422812],
+                {}
+            ).addTo(map_3e0fa7c206b72c02ea0b2c60829787d5);
+        
+    
+            var icon_bb53c1a8efec26772665159d29b433e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_9dcce04d8fdd5a3ccad9a59c15ac7ca1.setIcon(icon_bb53c1a8efec26772665159d29b433e4);
+        
+    
+        var popup_ea82f45459b41431112f13c49a488717 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63bf0de003276b6e71010dae11e505f5 = $(`<div id="html_63bf0de003276b6e71010dae11e505f5" style="width: 100.0%; height: 100.0%;">Provence rugby Aix Marseille, Stade Maurice-David</div>`)[0];
+                popup_ea82f45459b41431112f13c49a488717.setContent(html_63bf0de003276b6e71010dae11e505f5);
+            
+        
+
+        marker_9dcce04d8fdd5a3ccad9a59c15ac7ca1.bindPopup(popup_ea82f45459b41431112f13c49a488717)
+        ;
+
+        
+    
+    
+            var marker_de6d2459015058afb00fe82548ecbecc = L.marker(
+                [47.65183, -2.761079],
+                {}
+            ).addTo(map_3e0fa7c206b72c02ea0b2c60829787d5);
+        
+    
+            var icon_9ae135b286f40dc838c0d3b6af5470fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_de6d2459015058afb00fe82548ecbecc.setIcon(icon_9ae135b286f40dc838c0d3b6af5470fe);
+        
+    
+        var popup_c1945ad43520924f862fd06544146e76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_378fbc20260ed745895315b4f212228e = $(`<div id="html_378fbc20260ed745895315b4f212228e" style="width: 100.0%; height: 100.0%;">Rugby club vannetais, Stade de la Rabine</div>`)[0];
+                popup_c1945ad43520924f862fd06544146e76.setContent(html_378fbc20260ed745895315b4f212228e);
+            
+        
+
+        marker_de6d2459015058afb00fe82548ecbecc.bindPopup(popup_c1945ad43520924f862fd06544146e76)
+        ;
+
+        
+    
+    
+            var marker_7c8c2b07300f0651b743d376c1dd0777 = L.marker(
+                [49.411053, 1.070735],
+                {}
+            ).addTo(map_3e0fa7c206b72c02ea0b2c60829787d5);
+        
+    
+            var icon_0c2d02b95b3fdc1edc2bfd22cf999921 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_7c8c2b07300f0651b743d376c1dd0777.setIcon(icon_0c2d02b95b3fdc1edc2bfd22cf999921);
+        
+    
+        var popup_24d9250683f5d91eaf2ff4a2d497e697 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa82b419917118171894c24cede56ebd = $(`<div id="html_aa82b419917118171894c24cede56ebd" style="width: 100.0%; height: 100.0%;">Rouen Normandie rugby, Stade Robert-Diochon</div>`)[0];
+                popup_24d9250683f5d91eaf2ff4a2d497e697.setContent(html_aa82b419917118171894c24cede56ebd);
+            
+        
+
+        marker_7c8c2b07300f0651b743d376c1dd0777.bindPopup(popup_24d9250683f5d91eaf2ff4a2d497e697)
+        ;
+
+        
+    
+    
+            var marker_23163b46fd3ff6ad41c2a4e30069aebf = L.marker(
+                [44.924501, 2.429591],
+                {}
+            ).addTo(map_3e0fa7c206b72c02ea0b2c60829787d5);
+        
+    
+            var icon_3ed92bd55cfe5e7f015b32c9fab35da8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_23163b46fd3ff6ad41c2a4e30069aebf.setIcon(icon_3ed92bd55cfe5e7f015b32c9fab35da8);
+        
+    
+        var popup_c57b82fe14e93dcf76304e4288207e07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfc56ef42d0c483be1600e921a17163a = $(`<div id="html_dfc56ef42d0c483be1600e921a17163a" style="width: 100.0%; height: 100.0%;">Stade aurillacois Cantal Auvergne, Stade Jean-Alric</div>`)[0];
+                popup_c57b82fe14e93dcf76304e4288207e07.setContent(html_dfc56ef42d0c483be1600e921a17163a);
+            
+        
+
+        marker_23163b46fd3ff6ad41c2a4e30069aebf.bindPopup(popup_c57b82fe14e93dcf76304e4288207e07)
+        ;
+
+        
+    
+    
+            var marker_cc28665723d6fb0a2ecb9137912434fe = L.marker(
+                [45.641823, 0.176235],
+                {}
+            ).addTo(map_3e0fa7c206b72c02ea0b2c60829787d5);
+        
+    
+            var icon_78b38218fb3ef7fbf2ecbdf060ef5578 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_cc28665723d6fb0a2ecb9137912434fe.setIcon(icon_78b38218fb3ef7fbf2ecbdf060ef5578);
+        
+    
+        var popup_963ba07688c3bdcbafe7afb6fa16b7eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe8e507938604445b36d07f22c64717e = $(`<div id="html_fe8e507938604445b36d07f22c64717e" style="width: 100.0%; height: 100.0%;">Soyaux Angoulême XV Charente, Stade Chanzy</div>`)[0];
+                popup_963ba07688c3bdcbafe7afb6fa16b7eb.setContent(html_fe8e507938604445b36d07f22c64717e);
+            
+        
+
+        marker_cc28665723d6fb0a2ecb9137912434fe.bindPopup(popup_963ba07688c3bdcbafe7afb6fa16b7eb)
+        ;
+
+        
+    
+    
+            var marker_88faa554bb5d173d8db4a9be2bc1cdc8 = L.marker(
+                [43.895421, -0.482731],
+                {}
+            ).addTo(map_3e0fa7c206b72c02ea0b2c60829787d5);
+        
+    
+            var icon_faf23590b84cc2e28e7c5a5cf3c1c52b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_88faa554bb5d173d8db4a9be2bc1cdc8.setIcon(icon_faf23590b84cc2e28e7c5a5cf3c1c52b);
+        
+    
+        var popup_289d1468f2022857828a1abc7af7b851 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eea42086b46f189d45d35771210fdadb = $(`<div id="html_eea42086b46f189d45d35771210fdadb" style="width: 100.0%; height: 100.0%;">Stade montois rugby, Stade André-et-Guy-Boniface</div>`)[0];
+                popup_289d1468f2022857828a1abc7af7b851.setContent(html_eea42086b46f189d45d35771210fdadb);
+            
+        
+
+        marker_88faa554bb5d173d8db4a9be2bc1cdc8.bindPopup(popup_289d1468f2022857828a1abc7af7b851)
+        ;
+
+        
+    
+    
+            var marker_164b268e3af2d390179c0d673c6f7ec6 = L.marker(
+                [44.192593, 0.620483],
+                {}
+            ).addTo(map_3e0fa7c206b72c02ea0b2c60829787d5);
+        
+    
+            var icon_aa6d3327b286a99e1e5cbb4acec15a03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_164b268e3af2d390179c0d673c6f7ec6.setIcon(icon_aa6d3327b286a99e1e5cbb4acec15a03);
+        
+    
+        var popup_dc6b6f25a46dc21262c01058d5a07cc5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0875a616cc01cf5374ba80b9dce6f1bc = $(`<div id="html_0875a616cc01cf5374ba80b9dce6f1bc" style="width: 100.0%; height: 100.0%;">Sporting Union Agen Lot-et-Garonne, Stade Alfred-Armandie</div>`)[0];
+                popup_dc6b6f25a46dc21262c01058d5a07cc5.setContent(html_0875a616cc01cf5374ba80b9dce6f1bc);
+            
+        
+
+        marker_164b268e3af2d390179c0d673c6f7ec6.bindPopup(popup_dc6b6f25a46dc21262c01058d5a07cc5)
+        ;
+
+        
+    
+    
+            var marker_ac066bbb181f8d2ffd7066c65e42abd7 = L.marker(
+                [43.712113, -1.045766],
+                {}
+            ).addTo(map_3e0fa7c206b72c02ea0b2c60829787d5);
+        
+    
+            var icon_77d625e449f4158d2ccb3116772b2101 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ac066bbb181f8d2ffd7066c65e42abd7.setIcon(icon_77d625e449f4158d2ccb3116772b2101);
+        
+    
+        var popup_794e83477e98bab5ae0814257cb36a31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fb39424258a6062fe474b437cc6d2c8 = $(`<div id="html_0fb39424258a6062fe474b437cc6d2c8" style="width: 100.0%; height: 100.0%;">Union sportive dacquoise rugby Landes, Stade Maurice-Boyau</div>`)[0];
+                popup_794e83477e98bab5ae0814257cb36a31.setContent(html_0fb39424258a6062fe474b437cc6d2c8);
+            
+        
+
+        marker_ac066bbb181f8d2ffd7066c65e42abd7.bindPopup(popup_794e83477e98bab5ae0814257cb36a31)
+        ;
+
+        
+    
+    
+            var marker_2f0742833f150ac5b8e8d4f68265db03 = L.marker(
+                [44.010224, 1.351793],
+                {}
+            ).addTo(map_3e0fa7c206b72c02ea0b2c60829787d5);
+        
+    
+            var icon_c5018f141c83fe7edeb8d5e5ef96cf51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_2f0742833f150ac5b8e8d4f68265db03.setIcon(icon_c5018f141c83fe7edeb8d5e5ef96cf51);
+        
+    
+        var popup_20bb7f8b6280e109c0a2b6969110e747 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cdba40ef528edbdd300820b046407e8 = $(`<div id="html_5cdba40ef528edbdd300820b046407e8" style="width: 100.0%; height: 100.0%;">Union sportive montalbanaise, Stade Sapiac</div>`)[0];
+                popup_20bb7f8b6280e109c0a2b6969110e747.setContent(html_5cdba40ef528edbdd300820b046407e8);
+            
+        
+
+        marker_2f0742833f150ac5b8e8d4f68265db03.bindPopup(popup_20bb7f8b6280e109c0a2b6969110e747)
+        ;
+
+        
+    
+    
+            var marker_0fb331f4305a3c039e2fc34cf4d37122 = L.marker(
+                [46.975497, 3.160214],
+                {}
+            ).addTo(map_3e0fa7c206b72c02ea0b2c60829787d5);
+        
+    
+            var icon_c1ccf3f8299828994305a037eb36fec4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_0fb331f4305a3c039e2fc34cf4d37122.setIcon(icon_c1ccf3f8299828994305a037eb36fec4);
+        
+    
+        var popup_11b212bcc97178ecd663981ad85418d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd0d7aea19e24b98ec343ccc1763e02b = $(`<div id="html_dd0d7aea19e24b98ec343ccc1763e02b" style="width: 100.0%; height: 100.0%;">USON Nevers Rugby, Stade du Pré Fleuri</div>`)[0];
+                popup_11b212bcc97178ecd663981ad85418d7.setContent(html_dd0d7aea19e24b98ec343ccc1763e02b);
+            
+        
+
+        marker_0fb331f4305a3c039e2fc34cf4d37122.bindPopup(popup_11b212bcc97178ecd663981ad85418d7)
+        ;
+
+        
+    
+    
+            var marker_cc4d46d8224307dc0695983e1062851c = L.marker(
+                [44.945611, 4.919271],
+                {}
+            ).addTo(map_3e0fa7c206b72c02ea0b2c60829787d5);
+        
+    
+            var icon_be3b700809964fad1ba42551d7c2b9cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_cc4d46d8224307dc0695983e1062851c.setIcon(icon_be3b700809964fad1ba42551d7c2b9cf);
+        
+    
+        var popup_39638a58c1760d05dc4cf923151861a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cb7d34000d46328d2bd99bdff508e61 = $(`<div id="html_8cb7d34000d46328d2bd99bdff508e61" style="width: 100.0%; height: 100.0%;">Valence Romans Drôme Rugby, Stade Georges-Pompidou</div>`)[0];
+                popup_39638a58c1760d05dc4cf923151861a2.setContent(html_8cb7d34000d46328d2bd99bdff508e61);
+            
+        
+
+        marker_cc4d46d8224307dc0695983e1062851c.bindPopup(popup_39638a58c1760d05dc4cf923151861a2)
+        ;
+
+        
+    
+</script>
+</html>
