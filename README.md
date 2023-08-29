@@ -1,4 +1,4 @@
-# Analysis of Rugby evolution from 1871, with a particular focus on France.
+# Analysis of the results of rugby matches between the world's top 10 nations since 1871, with a particular focus on France.
 
 ![Screenshot](img/LOGO_WORLD_RUGBY_2020.svg.png)
 
